@@ -1,0 +1,26 @@
+{
+  "name": "plp-mongodb-week1",
+  "version": "1.0.0",
+  "description": "Week 1: MongoDB – Data Layer Fundamentals and Advanced Techniques",
+  "main": "queries.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "insert": "node insert_books.js",
+    "queries": "node queries.js",
+    "queries:offline": "NO_DB=1 node queries.js"
+  },
+  "keywords": [
+    "mongodb",
+    "assignment",
+    "plp",
+    "nosql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.8.0"
+  }
+}
